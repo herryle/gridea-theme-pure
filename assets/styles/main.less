@@ -9,7 +9,87 @@
   padding: 0;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   border: 0;
   vertical-align: baseline;
 }
@@ -19,7 +99,8 @@ html {
 }
 
 body {
-  font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, opensans, Optima, 'Microsoft Yahei', sans-serif;
+  font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, opensans,
+    Optima, 'Microsoft Yahei', sans-serif;
   font-size: 16px;
   letter-spacing: 1.0382px;
 }
@@ -36,7 +117,22 @@ a {
   //}
 }
 
-body, div, a, p, ul, li, ol, h1, h2, h3, h4, h5, h6, table, tr, td {
+body,
+div,
+a,
+p,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+td {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -118,18 +214,25 @@ ul {
     border-top: 1px solid #dfe2e5;
   }
 
-  td, th {
+  td,
+  th {
     border: 1px solid #dfe2e5;
-    padding: .6em 1em;
+    padding: 0.6em 1em;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 20px;
     line-height: 1.725;
     margin-bottom: 16px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-bottom: 18px;
     padding-top: 14px;
     font-weight: bold;
@@ -159,7 +262,8 @@ ul {
     font-size: 14px;
   }
 
-  p, li {
+  p,
+  li {
     code {
       padding: 0 6px;
       margin: 0 3px;
@@ -171,15 +275,17 @@ ul {
 
   pre {
     margin-bottom: 18px;
-
+    overflow: hidden;
     code {
       font-size: 13px;
-      font-family: Menlo, Monaco, 'Source Code Pro', Consolas, 'Courier New', monospace;
+      font-family: Menlo, Monaco, 'Source Code Pro', Consolas, 'Courier New',
+        monospace;
       padding: 1em;
       border-radius: 5px;
       line-height: 1.375;
       width: 100%;
       overflow: scroll;
+      overflow: hidden;
       display: block;
     }
   }
@@ -195,7 +301,6 @@ ul {
   display: flex;
   flex-direction: column;
 }
-
 
 //.gt-bg-theme-color-first {
 //  background: @theme-color-first;
@@ -245,13 +350,13 @@ ul {
 //  color: @accent-color-second;
 //}
 
-@import "./components/header.less";
-@import "./components/home.less";
-@import "./components/post.less";
-@import "./components/archives.less";
-@import "./components/tags.less";
-@import "./components/tag.less";
-@import "./components/about.less";
-@import "./components/footer.less";
-@import "./lib/highlight.less";
-@import "./lib/katex.less";
+@import './components/header.less';
+@import './components/home.less';
+@import './components/post.less';
+@import './components/archives.less';
+@import './components/tags.less';
+@import './components/tag.less';
+@import './components/about.less';
+@import './components/footer.less';
+@import './lib/highlight.less';
+@import './lib/katex.less';
